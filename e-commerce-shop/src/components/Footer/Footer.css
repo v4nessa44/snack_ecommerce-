@@ -1,0 +1,39 @@
+.footer{
+    background-color: #451806;
+    color: wheat;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer .logo{
+    font-size: 40px;
+    display: flex;
+    gap: 20px;
+    color: rgba(243, 100, 4, 0.877);
+    font-weight: bold;
+}
+
+.link_list ul{
+    list-style-type: none;
+    padding: 0%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.link_list ul li{
+    font-size: 18px;
+}
+.footer h3{
+    font-size: 20px;
+    color:rgba(243, 100, 4, 0.877);
+}
+.footer input{
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 10px;
+}

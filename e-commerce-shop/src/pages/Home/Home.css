@@ -1,0 +1,33 @@
+.home{
+    background-image: url("assets/home-bg.webp");
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+   
+}
+.content{
+    padding: 10px 100px;
+    color: wheat;
+}
+.content h1{
+    font-size: 60px;
+    background-color: #451806;
+    color: wheat;
+    padding: 10px 20px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.content a{
+    background-color: #451806;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: wheat;
+    text-decoration: none;
+}
