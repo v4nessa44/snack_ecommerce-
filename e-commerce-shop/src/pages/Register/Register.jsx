@@ -21,7 +21,7 @@ const Register = () => {
       };
 
       const response = await axios.post(
-        "https://66c8cd178a477f50dc2f4d07.mockapi.io/User",
+        "https://66c63bc2134eb8f43497236c.mockapi.io/User",
         body
       );
 

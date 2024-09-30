@@ -1,6 +1,6 @@
 nav{
     background-color: rgb(70, 24, 6);
-    color: white;
+    color: wheat;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
@@ -43,4 +43,11 @@ nav .links a:hover,
  {
     transform: scale(0.9);
     transition: all 0.3s;
+}
+
+.orderLink{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 2px;
 }

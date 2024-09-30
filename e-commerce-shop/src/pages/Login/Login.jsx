@@ -18,7 +18,7 @@ const Login = () => {
   const handleLogin = async () => {
     try {
       const response = await axios.get(
-        "https://66c8cd178a477f50dc2f4d07.mockapi.io/User"
+        "https://66c63bc2134eb8f43497236c.mockapi.io/User"
       );
       if (response.status === 200) {
         const users = response.data;
@@ -35,7 +35,7 @@ const Login = () => {
               login: true,
               id: filteredData[0].id,
               name: filteredData[0].name,
-              email:filteredData[0].name,
+              email:filteredData[0].email,
             })
           )
           message.success("Logged In");

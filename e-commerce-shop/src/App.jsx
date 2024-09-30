@@ -5,6 +5,8 @@ import Home from './pages/Home/Home'
 import NavBar from './components/NavBar/NavBar';
 import Login from './pages/Login/Login';
 import Products from './pages/Products/Products';
+import Product from './pages/product/product';
+import Order from './pages/Orders/Order';
 
 
 function App() {
@@ -18,7 +20,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/orders" element={<h1>Ok</h1>} />
+        <Route path="/product/:id" element={<Product />} />
+        <Route path="/orders" element={<Order />} />
       </Routes>
       
 
